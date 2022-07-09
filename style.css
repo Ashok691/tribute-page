@@ -1,0 +1,55 @@
+*{
+    /* background-image: url(https://images.indianexpress.com/2021/06/S-P-Balasubrahmanyam-critical-1200.jpg); */
+    background-color:#1b1c1e;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #669999;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+.navigation a {
+    text-decoration: none;
+    font-family: "Kaushan Script", cursive;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius:100px;
+  }
+.navigation a:hover {
+    color: #444444;
+    background-color: #fff;
+  }
+.text{
+    color:aliceblue;
+    text-align: center;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 75vh;
+}
+.main{
+    text-justify: inter-cluster;
+    margin-left: 13%;
+    width:75vw;
+}
+.paragraph{
+    font-size: 20px;
+    line-height: 1.8;
+    line-break:anywhere;
+}
